@@ -13,6 +13,7 @@ public class User {
     private String rua;
     private String uf;
     private String senha;
+    private String idade;
     private String email;
     private Date nascimento;
 
@@ -25,6 +26,12 @@ public class User {
         return id;
     }
 
+    public String getIdade() {
+    	return this.idade;
+    }
+    public void setIdade(String idade) {
+    	this.idade = idade;
+    }
     public void setId(Long id){
         this.id = id;
     }
